@@ -1,72 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Greetings!</title>
+    <url>/2023/11/02/Greetings/</url>
+    <content><![CDATA[<h2 id="Thanks-for-visiting-my-blog"><a href="#Thanks-for-visiting-my-blog" class="headerlink" title="Thanks for visiting my blog"></a>Thanks for visiting my blog</h2><p>Here I exhibit some of my  projects and research, and books I love. I’m interested in Deep-Learning, Robotics and Psychology. The primary objective of this blog is to encapsulate the myriad of technical challenges and insights I encounter on my educational journey, thereby aiding others. Furthermore, it serves as a practical application of the Feynman Technique, enhancing my own capacity for knowledge dissemination.</p>
+<p>Should there be any inaccuracies or aspects of the blog that elicit confusion, please do not hesitate to contact me via email at your earliest convenience.</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Overview of innovative application for Diffusion</title>
-    <url>/2023/10/26/Diffusion%20Model%204%20Protein/</url>
+    <url>/2023/11/01/Diffusion-4-Protein/</url>
     <content><![CDATA[<h1 id="Diffusion-Model-4-Protein"><a href="#Diffusion-Model-4-Protein" class="headerlink" title="Diffusion Model 4 Protein"></a>Diffusion Model 4 Protein</h1><p>​	Inverse protein folding is challenging due to its inherent one-to-many mapping</p>
 <p>characteristic, where numerous possible amino acid sequences can fold into a single,</p>
 <p>identical protein backbone. This task involves not only identifying viable sequences</p>
 <p>but also representing the sheer diversity of potential solutions. This article is the overview of the technology utilized by <strong>Graph Denoising Diffusion for Inverse Protein Folding</strong>.</p>
 <span id="more"></span>
 
-<h2 id="ResNet"><a href="#ResNet" class="headerlink" title="ResNet"></a>ResNet</h2><img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016220405922.png" alt="image-20231016220405922" style="zoom:33%;">
+<h2 id="ResNet"><a href="#ResNet" class="headerlink" title="ResNet"></a>ResNet</h2><img src="/.com//Photo/image-20231016220405922.png" alt="image-20231016220405922" style="zoom:33%;">
 
+
+
+<p><img src="/.com//image-20231016220405922.png"></p>
 <p>​	残差学习就是改变传统的网络结构，将层间传输的数据转换为F(x)+x的形式。优势在于梯度不会随着导数的相乘而快速趋近于0，使得网络在达到Plateau后继续下降收敛。</p>
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016220953678.png" alt="image-20231016220953678" style="zoom:33%;">
+<img src="/.com//Photo/image-20231016220953678.png" alt="image-20231016220953678" style="zoom:33%;">
 
 <h2 id="Transformer"><a href="#Transformer" class="headerlink" title="Transformer"></a>Transformer</h2><p>​	序列转录模型，运用Attention机制，取得了全局信息的抽取效果，而且避免了RNN存在的诸如梯度消失和难以并行计算的缺点。</p>
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016221240166.png" alt="image-20231016221240166" style="zoom: 50%;">
+<img src="/.com//Photo/image-20231016221240166.png" alt="image-20231016221240166" style="zoom: 50%;">
 
 <p>​	同样运用了Residual的链接方式和样本层面的layer norm，能够处理边长序列的样本信息。</p>
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016221452280.png" alt="image-20231016221452280" style="zoom:33%;">
+<img src="/.com//Photo/image-20231016221452280.png" alt="image-20231016221452280" style="zoom:33%;">
 
 <p>​	此外，1）还要注意decoder的Mask机制，以及类似条件概率的序列生成方式 。2）Attention无法取得序列的位置信息，所以需要对位置进行cos的编码，使得MLP层能够学习到顺序Info。</p>
 <h2 id="GNN"><a href="#GNN" class="headerlink" title="GNN"></a>GNN</h2><p>​	图神经网络利用的图这种数据结构intrinsically具有的强大特点，对于各种数据有这很好的结构化表示，详细介绍Distill：<a href="https://distill.pub/2021/gnn-intro/">A Gentle Introduction to Graph Neural Networks (distill.pub)</a></p>
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016222632434.png" alt="image-20231016222632434" style="zoom:67%;">
+<img src="/.com//Photo/image-20231016222632434.png" alt="image-20231016222632434" style="zoom:67%;">
 
 <p>​	对于一个图数据，可以对顶点、边以及全局信息分别应用MLP进行学习，在通过数据相互传到的技巧，可以良好地学习到数据整体地特征。</p>
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016222814266.png" alt="image-20231016222814266" style="zoom:67%;">
+<img src="/.com//Photo/image-20231016222814266.png" alt="image-20231016222814266" style="zoom:67%;">
 
 
 
-<h2 id="What-is-GAN"><a href="#What-is-GAN" class="headerlink" title="What is GAN"></a>What is GAN</h2><p><img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016223524288.png" alt="image-20231016223524288"></p>
+<h2 id="What-is-GAN"><a href="#What-is-GAN" class="headerlink" title="What is GAN"></a>What is GAN</h2><p><img src="/.com//Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016223524288.png" alt="image-20231016223524288"></p>
 <p>​	GAN = Generative Adversarial Networks，生成对抗网络。即同时定义两个网络，生成器G和判别器D。通过博弈论新设计的目标函数，同时对两个网络进行对抗式的训练。最终达成的目的是使得G生产的图片非常趋近于Ground Truth的图片(图d)，而D无法分辨，收敛到1/2:</p>
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016224042238.png" alt="image-20231016224042238" style="zoom:50%;">
+<img src="/.com//Photo/image-20231016224042238.png" alt="image-20231016224042238" style="zoom:50%;">
 
-<h2 id="Diffusion-Model-Overview-Via-DALLE-2"><a href="#Diffusion-Model-Overview-Via-DALLE-2" class="headerlink" title="Diffusion Model Overview Via DALLE-2"></a>Diffusion Model Overview Via DALLE-2</h2><img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016225558737.png" alt="image-20231016225558737" style="zoom:50%;">
+<h2 id="Diffusion-Model-Overview-Via-DALLE-2"><a href="#Diffusion-Model-Overview-Via-DALLE-2" class="headerlink" title="Diffusion Model Overview Via DALLE-2"></a>Diffusion Model Overview Via DALLE-2</h2><img src="/.com//Photo/image-20231016225558737.png" alt="image-20231016225558737" style="zoom:50%;">
 
 <p>​	概率扩散模型, 实用的DDPM运用残差学习的思想, 在Reverse过程中, 不通过Xt到Xt-1直接得到,而是学习所加的噪声. 因为通过共享权重的U-Net来进行全局的预测,需要对位置进行 Time Embeding. </p>
-<h3 id="Classifier-Guided-Diffusion"><a href="#Classifier-Guided-Diffusion" class="headerlink" title="Classifier-Guided Diffusion"></a>Classifier-Guided Diffusion</h3><img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016231307655.png" alt="image-20231016231307655" style="zoom: 50%;">
+<h3 id="Classifier-Guided-Diffusion"><a href="#Classifier-Guided-Diffusion" class="headerlink" title="Classifier-Guided Diffusion"></a>Classifier-Guided Diffusion</h3><img src="/.com//Photo/image-20231016231307655.png" alt="image-20231016231307655" style="zoom: 50%;">
 
 <p>​	Diffusion Beats GAN中提出的方法,不仅可以用Classifier来指导训练, CLIP, LLM等都可以用来作为Guide函数. </p>
-<h3 id="Classifier-Free-Diffusion"><a href="#Classifier-Free-Diffusion" class="headerlink" title="Classifier-Free Diffusion"></a>Classifier-Free Diffusion</h3><img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016231456302.png" alt="image-20231016231456302" style="zoom: 50%;">
+<h3 id="Classifier-Free-Diffusion"><a href="#Classifier-Free-Diffusion" class="headerlink" title="Classifier-Free Diffusion"></a>Classifier-Free Diffusion</h3><img src="/.com//Photo/image-20231016231456302.png" alt="image-20231016231456302" style="zoom: 50%;">
 
 <p>​	优化的目标函数变更. 通过学习有无条件生成X之间的Gap, 可以实现将即使在无条件下生成的图片转换成有条件Guide的图片. </p>
-<h2 id="AlphaFold2"><a href="#AlphaFold2" class="headerlink" title="AlphaFold2"></a>AlphaFold2</h2><img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016233300342.png" alt="image-20231016233300342" style="zoom:67%;">
+<h2 id="AlphaFold2"><a href="#AlphaFold2" class="headerlink" title="AlphaFold2"></a>AlphaFold2</h2><img src="/.com//Photo/image-20231016233300342.png" alt="image-20231016233300342" style="zoom:67%;">
 
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016233824554.png" alt="image-20231016233824554" style="zoom:67%;">
+<img src="/.com//Photo/image-20231016233824554.png" alt="image-20231016233824554" style="zoom:67%;">
 
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231017004041504.png" alt="image-20231017004041504" style="zoom:67%;">
+<img src="/.com//Photo/image-20231017004041504.png" alt="image-20231017004041504" style="zoom:67%;">
 
 <p><video src="C:\Users\DELL\AppData\Local\Temp\MicrosoftEdgeDownloads\0c28b45a-ec2b-41b6-988e-dded03806040\41586_2021_3819_MOESM3_ESM.mp4"></video></p>
 <p><video src="C:\Users\DELL\AppData\Local\Temp\MicrosoftEdgeDownloads\0c59e5f6-9ff9-4169-94f0-c96bd1094cf7\41586_2021_3819_MOESM4_ESM.mp4"></video></p>
 <p>​	Nature补充材料: <a href="https://www.nature.com/articles/s41586-021-03819-2#MOESM3">Highly accurate protein structure prediction with AlphaFold | Nature</a></p>
-<h2 id="Turnover-number-DLKcat"><a href="#Turnover-number-DLKcat" class="headerlink" title="Turnover number &amp; DLKcat"></a>Turnover number &amp; DLKcat</h2><img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016232316214.png" alt="image-20231016232316214" style="zoom: 67%;">
+<h2 id="Turnover-number-DLKcat"><a href="#Turnover-number-DLKcat" class="headerlink" title="Turnover number &amp; DLKcat"></a>Turnover number &amp; DLKcat</h2><img src="/.com//Photo/image-20231016232316214.png" alt="image-20231016232316214" style="zoom: 67%;">
 
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016232812110.png" alt="image-20231016232812110" style="zoom: 67%;">
+<img src="/.com//Photo/image-20231016232812110.png" alt="image-20231016232812110" style="zoom: 67%;">
 
 <p>​	<strong>底物 Substrate</strong>: Substrate refers to the specific molecule or molecules that an enzyme acts upon in an enzymatic reaction. Enzymes bind to their substrates at their active sites, which are specific regions of the enzyme’s structure that complement the shape and chemical properties of the substrate(s). This binding of the substrate to the enzyme’s active site forms an enzyme-substrate complex.</p>
 <p>​	</p>
-<h2 id="Protein-Graph"><a href="#Protein-Graph" class="headerlink" title="Protein Graph"></a>Protein Graph</h2><img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016234338343.png" alt="image-20231016234338343" style="zoom:67%;">
+<h2 id="Protein-Graph"><a href="#Protein-Graph" class="headerlink" title="Protein Graph"></a>Protein Graph</h2><img src="/.com//Photo/image-20231016234338343.png" alt="image-20231016234338343" style="zoom:67%;">
 
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231017012342420.png" alt="image-20231017012342420" style="zoom:67%;">
+<img src="/.com//Photo/image-20231017012342420.png" alt="image-20231017012342420" style="zoom:67%;">
 
 <h2 id="DataSet"><a href="#DataSet" class="headerlink" title="DataSet"></a>DataSet</h2><p><strong>CATH</strong>: Protein Structure Classification Database at UCL, which conducts 151 million protein domains classified into 5,841 superfamilies. 使用wget方法下载. </p>
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016004238773.png" alt="image-20231016004238773" style="zoom: 67%;">
+<img src="/.com//Photo/image-20231016004238773.png" alt="image-20231016004238773" style="zoom: 67%;">
 
 <p><strong>Website</strong>: <a href="https://www.cathdb.info/">CATH: Protein Structure Classification Database at UCL (cathdb.info)</a></p>
 <p><strong>Protein Domain</strong>: </p>
-<img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231016005008584.png" alt="image-20231016005008584" style="zoom:67%;"> 
+<img src="/.com//Photo/image-20231016005008584.png" alt="image-20231016005008584" style="zoom:67%;"> 
 
 <h2 id="Inductive-Bias-and-Learning-Rule"><a href="#Inductive-Bias-and-Learning-Rule" class="headerlink" title="Inductive Bias and Learning Rule"></a>Inductive Bias and Learning Rule</h2>]]></content>
       <categories>
@@ -77,6 +87,8 @@
     <title>Hello World</title>
     <url>/2023/10/30/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
