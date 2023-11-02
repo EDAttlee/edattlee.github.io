@@ -18,9 +18,11 @@
 
 <h2 id="ResNet"><a href="#ResNet" class="headerlink" title="ResNet"></a>ResNet</h2><img src="/.com//Photo/image-20231016220405922.png" alt="image-20231016220405922" style="zoom:33%;">
 
+<p><img src="https://github.com/EDAttlee/edattlee.github.io/blob/main/Photo/image-20231016220405922.png"></p>
+<img src="https://github.com/EDAttlee/edattlee.github.io/blob/main/Photo/image-20231016220405922.png" alt="图片描述">
 
 
-<p><img src="/.com//image-20231016220405922.png"></p>
+
 <p>​	残差学习就是改变传统的网络结构，将层间传输的数据转换为F(x)+x的形式。优势在于梯度不会随着导数的相乘而快速趋近于0，使得网络在达到Plateau后继续下降收敛。</p>
 <img src="/.com//Photo/image-20231016220953678.png" alt="image-20231016220953678" style="zoom:33%;">
 
