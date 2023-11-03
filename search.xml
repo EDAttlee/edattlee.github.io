@@ -77,25 +77,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Multi Agents</title>
-    <url>/2023/08/25/Multi-Agents/</url>
-    <content><![CDATA[<h2 id="多智能体-Multi-Agents"><a href="#多智能体-Multi-Agents" class="headerlink" title="多智能体 | Multi-Agents"></a>多智能体 | Multi-Agents</h2><h3 id="寻路算法"><a href="#寻路算法" class="headerlink" title="寻路算法"></a>寻路算法</h3><p>DWA is a local planner used to control a mobile robot by selecting the optimal velocity and steering angle based on the robot’s current state and its goal. It takes into account the robot’s dynamics and the environment to avoid collisions while moving towards the target.</p>
-<iframe width="300" height="600" src="https://youtu.be/v962LmBEFi0?loop=1&amp;playlist=v962LmBEFi0" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen=""></iframe>
-
-<span id="more"></span>
-
-<p>RRT is a path planning algorithm that is designed for efficiently searching high-dimensional spaces by randomly building a space-filling tree. The tree is constructed incrementally from a starting point and expands towards randomly chosen points in the search space. The algorithm is particularly suited for problems that involve obstacles and differential constraints .</p>
-<h3 id="Multi-Agents-Simulation"><a href="#Multi-Agents-Simulation" class="headerlink" title="Multi-Agents Simulation"></a>Multi-Agents Simulation</h3><img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/image-20231103190238382.png" referrerpolicy="no-referrer" alt="image-20231103190238382">
-
-<p>Before the actual deployment of drones, we conducted simulations on their formation flying and leader-follower control modes. This preparatory step is crucial for ensuring that the autonomous behaviors necessary for coordinated flight are functioning correctly and safely. The simulation involves virtual drones following a designated leader drone while maintaining a specific formation pattern, all of which are governed by algorithms that dictate their movement and behavior in response to the leader’s actions and environmental factors.</p>
-<iframe width="300" height="600" src="https://youtu.be/lK-9j8a_cOE?loop=1&amp;playlist=lK-9j8a_cOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen=""></iframe>
-
-]]></content>
-      <categories>
-        <category>Embedded</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Projects in Course Robotics</title>
     <url>/2023/08/24/Robot/</url>
     <content><![CDATA[<h2 id="机器人课程总结-Robotics"><a href="#机器人课程总结-Robotics" class="headerlink" title="机器人课程总结 | Robotics"></a>机器人课程总结 | Robotics</h2><h3 id="六关节机械臂ROS仿真与实验"><a href="#六关节机械臂ROS仿真与实验" class="headerlink" title="六关节机械臂ROS仿真与实验"></a>六关节机械臂ROS仿真与实验</h3><img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/image-20231103173145487.png">
@@ -272,6 +253,25 @@
 ]]></content>
       <categories>
         <category>Hardware</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Multi Agents</title>
+    <url>/2022/08/25/Multi-Agents/</url>
+    <content><![CDATA[<h2 id="多智能体-Multi-Agents"><a href="#多智能体-Multi-Agents" class="headerlink" title="多智能体 | Multi-Agents"></a>多智能体 | Multi-Agents</h2><h3 id="寻路算法"><a href="#寻路算法" class="headerlink" title="寻路算法"></a>寻路算法</h3><p>DWA is a local planner used to control a mobile robot by selecting the optimal velocity and steering angle based on the robot’s current state and its goal. It takes into account the robot’s dynamics and the environment to avoid collisions while moving towards the target.</p>
+<iframe width="300" height="600" src="https://youtu.be/v962LmBEFi0?loop=1&amp;playlist=v962LmBEFi0" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<span id="more"></span>
+
+<p>RRT is a path planning algorithm that is designed for efficiently searching high-dimensional spaces by randomly building a space-filling tree. The tree is constructed incrementally from a starting point and expands towards randomly chosen points in the search space. The algorithm is particularly suited for problems that involve obstacles and differential constraints .</p>
+<h3 id="Multi-Agents-Simulation"><a href="#Multi-Agents-Simulation" class="headerlink" title="Multi-Agents Simulation"></a>Multi-Agents Simulation</h3><img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/image-20231103190238382.png" referrerpolicy="no-referrer" alt="image-20231103190238382">
+
+<p>Before the actual deployment of drones, we conducted simulations on their formation flying and leader-follower control modes. This preparatory step is crucial for ensuring that the autonomous behaviors necessary for coordinated flight are functioning correctly and safely. The simulation involves virtual drones following a designated leader drone while maintaining a specific formation pattern, all of which are governed by algorithms that dictate their movement and behavior in response to the leader’s actions and environmental factors.</p>
+<iframe width="300" height="600" src="https://youtu.be/lK-9j8a_cOE?loop=1&amp;playlist=lK-9j8a_cOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+]]></content>
+      <categories>
+        <category>Embedded</category>
       </categories>
   </entry>
   <entry>
