@@ -77,26 +77,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/10/30/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Hardware Develop</title>
     <url>/2023/08/29/Hardware-Develop/</url>
     <content><![CDATA[<h3 id="单片机开发-MCU-Development"><a href="#单片机开发-MCU-Development" class="headerlink" title="单片机开发 | MCU Development"></a>单片机开发 | MCU Development</h3><p>A microcontroller (MCU for microcontroller unit) is a compact integrated circuit designed to govern a specific operation in an embedded system. Typically, microcontrollers include an application-specific processor, memory, and input/output peripherals on a single chip. </p>
@@ -123,16 +103,20 @@
   <entry>
     <title>Projects in Course Robotics</title>
     <url>/2023/08/24/Robot/</url>
-    <content><![CDATA[<h2 id="机器人课程总结-Robotics"><a href="#机器人课程总结-Robotics" class="headerlink" title="机器人课程总结 | Robotics"></a>机器人课程总结 | Robotics</h2><h3 id="六关节机械臂ROS仿真与实验"><a href="#六关节机械臂ROS仿真与实验" class="headerlink" title="六关节机械臂ROS仿真与实验"></a>六关节机械臂ROS仿真与实验</h3><p><img src="/.com//Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231103173145487.png" alt="image-20231103173145487"></p>
+    <content><![CDATA[<h2 id="机器人课程总结-Robotics"><a href="#机器人课程总结-Robotics" class="headerlink" title="机器人课程总结 | Robotics"></a>机器人课程总结 | Robotics</h2><h3 id="六关节机械臂ROS仿真与实验"><a href="#六关节机械臂ROS仿真与实验" class="headerlink" title="六关节机械臂ROS仿真与实验"></a>六关节机械臂ROS仿真与实验</h3><img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/image-20231103173145487.png">
+
 <p>In industrial applications, robotic arms with multiple joints possess a high degree of freedom, necessitating the spatial modeling of nodes and linkages, known as the DH (Denavit-Hartenberg) parameter table. Euler coordinate transformations are applied to convert joint space into Cartesian coordinate space to accomplish specific operational tasks. Figure 1 showcases a classic 6DOF (Degrees of Freedom) robot and a recognition and grasping task based on GAZEBO machine vision.</p>
 <span id="more"></span>
 
 <h3 id="运用手势识别的机械臂位姿控制"><a href="#运用手势识别的机械臂位姿控制" class="headerlink" title="运用手势识别的机械臂位姿控制"></a>运用手势识别的机械臂位姿控制</h3><p>After the robotic arm modeling is complete, the classic PID algorithm from automatic control theory, integrated with computer vision (CV), can be employed to control a three-jointed robotic arm using hand gestures. As shown in Figure 2, the robotic arm rapidly adjusts its end position in response to the recognized different gestures and orientations</p>
-<p><img src="/.com//Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20231103173348576.png" alt="image-20231103173348576"></p>
-<h3 id="SLAM技术与无人车控制"><a href="#SLAM技术与无人车控制" class="headerlink" title="SLAM技术与无人车控制"></a>SLAM技术与无人车控制</h3><img src="/.com//Blog\source\proj_images\SLAM例图.png" alt="SLAM例图" style="zoom: 50%;">
+<img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/image-20231103173348576.png">
+
+<h3 id="SLAM技术与无人车控制"><a href="#SLAM技术与无人车控制" class="headerlink" title="SLAM技术与无人车控制"></a>SLAM技术与无人车控制</h3><img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/SLAM%E4%BE%8B%E5%9B%BE.png" style="zoom: 50%;">
+
+
 
 <p>SLAM (Simultaneous Localization and Mapping) technology is a computational method that enables a robot or an autonomous vehicle to map its environment while simultaneously keeping track of its own location within that environment. SLAM is critical in the fields of robotics and autonomous systems, as it allows for navigation in unknown spaces without the need for external references like GPS</p>
-<img src="/.com//Blog\source\proj_images\slam2.png" alt="slam2" style="zoom:50%;">
+<img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/slam2.png" style="zoom: 50%;">
 
 <p>We have conducted map construction of the academic building and controlled the movement of an intelligent vehicle accordingly. This process likely involved using SLAM technology to enable the smart car to navigate through the building, creating a map as it moved along.</p>
 ]]></content>
