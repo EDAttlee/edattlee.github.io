@@ -77,6 +77,30 @@
       </categories>
   </entry>
   <entry>
+    <title>Embedded System</title>
+    <url>/2023/08/25/Embedded-System/</url>
+    <content><![CDATA[<h2 id="Embedded-System"><a href="#Embedded-System" class="headerlink" title="Embedded System"></a>Embedded System</h2><h3 id="Smart-vehicle"><a href="#Smart-vehicle" class="headerlink" title="Smart vehicle"></a>Smart vehicle</h3><p>Building on the hardware development knowledge acquired earlier, we completed an intelligent car based on computer vision (CV) and a two-wheeled balancing vehicle using a gyroscope. These systems are significantly more complex, deepening our understanding of control principles such as speed feedback, dual-loop control, and fuzzy PID control, as well as computer vision and ARM embedded development, including GPIO and nested interrupts.</p>
+<img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/image-20231103193513183.png" alt="image-20231103193513183">
+
+<span id="more"></span>
+
+<p>The vehicle, guided by image information captured by the camera, models the map and identifies elements like straight paths, curves, and roundabouts, executing varying control strategies accordingly. Even after the car was capable of completing the entire track, extensive debugging was conducted to pursue higher speeds.</p>
+<h3 id="Linux-Chat-Machine"><a href="#Linux-Chat-Machine" class="headerlink" title="Linux Chat Machine"></a>Linux Chat Machine</h3><p>Using an embedded development board, we have successfully implemented a system based on Baidu’s AI speech recognition technology. This system captures audio files through the board’s microphone, which are then processed in a Linux environment on the host machine to convert and recognize the speech as text results. These results are used to control various peripherals of the development board. To enhance user experience, we also integrated speech synthesis technology to convert text feedback into synthesized voice messages for playback.</p>
+<img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/image-20231103193647536.png" alt="image-20231103193647536">
+
+<h3 id="Smart-Home-Assistant"><a href="#Smart-Home-Assistant" class="headerlink" title="Smart Home Assistant"></a>Smart Home Assistant</h3><p>Building upon the chatbot framework, we crafted an intelligent home assistant system that earned the distinction of a National Third Prize at the China Intelligent Robot Design Competition, a testament to our system’s ingenuity and practical application in the realm of home automation.</p>
+<img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/image-20231103194144371.png" alt="image-20231103194144371">
+
+<p>Leveraging the open-source smart home platform Home Assistant, we have developed a comprehensive digital twin and intelligent control system that advances the field of smart home technology. This system enables users to precisely control every smart device in their home. Whether through voice commands, gesture control, or direct manipulation via mobile devices and a home intelligence hub, operation of home appliances is made effortlessly accessible. </p>
+<img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/image-20231103194021064.png" alt="image-20231103194021064">
+
+<p>Our objective is to elevate the level of home automation, allowing users to issue commands from any terminal to achieve intelligent control throughout the home, thereby making domestic life more convenient and comfortable.</p>
+]]></content>
+      <categories>
+        <category>Embedded</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Projects in Course Robotics</title>
     <url>/2023/08/24/Robot/</url>
     <content><![CDATA[<h2 id="机器人课程总结-Robotics"><a href="#机器人课程总结-Robotics" class="headerlink" title="机器人课程总结 | Robotics"></a>机器人课程总结 | Robotics</h2><h3 id="六关节机械臂ROS仿真与实验"><a href="#六关节机械臂ROS仿真与实验" class="headerlink" title="六关节机械臂ROS仿真与实验"></a>六关节机械臂ROS仿真与实验</h3><img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/image-20231103173145487.png">
