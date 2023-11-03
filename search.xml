@@ -115,17 +115,6 @@
 <h3 id="分形——解构世界的算法"><a href="#分形——解构世界的算法" class="headerlink" title="分形——解构世界的算法"></a>分形——解构世界的算法</h3><p>如图所示，根据分形原理，如果将一棵树的树杈不断缩放，去观察局部，那么自相似的性质就非常明显了。</p>
 <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/image-20231103101111097.png" style="zoom:80%">
 
-<p float="left">   
-    <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/20191110230539704.png" style="zoom:80%;">
-    <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/2019111023263779.png" width="300" height="320">
-</p>
-
-<p float="left">   
-    <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/20191110232747144.png" alt="图片描述" width="320" height="600">   
-    <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/20191110232713965.png" alt="一次迭代" width="350" height="620">
-    <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/20191110232808601.png" width="350" height="620">
-</p>
-
 <img src="//raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/image-20231103101345938.png" alt="image-20231103101345938" style="zoom:67%;">
 
 <p>再比如说斐波那契螺旋线分形：</p>
@@ -139,20 +128,9 @@
 <p>混沌之谜–逻辑斯蒂方程</p>
 <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/20191110234403456.png" style="zoom:80%">
 
-<h3 id="分形举例"><a href="#分形举例" class="headerlink" title="分形举例"></a>分形举例</h3><h4 id="噪声："><a href="#噪声：" class="headerlink" title="噪声："></a>噪声：</h4><p float="left">   
-    <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/20191110235021417.png" style="zoom:80%">   
-    <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/20191110235047106.png" style="zoom:80%">
-    <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/20191110235108585.png" style="zoom:80%">
-</p>
-
-<img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_imagesimage-20231103101448413.png" alt="image-20231103101448413" style="zoom:67%;">
+<h3 id="分形举例"><a href="#分形举例" class="headerlink" title="分形举例"></a>分形举例</h3><h4 id="噪声："><a href="#噪声：" class="headerlink" title="噪声："></a>噪声：</h4><img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/image-20231103101448413.png" alt="image-20231103101448413" style="zoom:67%;">
 
 <h4 id="多面体："><a href="#多面体：" class="headerlink" title="多面体："></a>多面体：</h4><p>帕斯卡三角形  &amp; 塞尔宾斯基堆</p>
-<p float="left">   
-    <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/201911102356059.png" style="zoom:80%">   
-    <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/20191110235739885.png">
-</p>
-
 <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/image-20231103101550473.png" alt="image-20231103101550473" style="zoom:67%;">
 
 <p>塞尔宾斯基地毯</p>
@@ -161,13 +139,7 @@
 
 
 <p> 除此之外还有门格海绵、开普勒多面体等。</p>
-<h4 id="IFS分形"><a href="#IFS分形" class="headerlink" title="IFS分形"></a>IFS分形</h4><p float="left">   
-    <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/20191111000305984.png" style="zoom:80%">   
-    <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/20191111000327201.png" style="zoom:80%">
-    <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/2019111100034568.png" style="zoom:80%">
-</p>
-
-<img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/image-20231103101646775.png" alt="image-20231103101646775" style="zoom:80%;"> 
+<h4 id="IFS分形"><a href="#IFS分形" class="headerlink" title="IFS分形"></a>IFS分形</h4><img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/downloaded_images/image-20231103101646775.png" alt="image-20231103101646775" style="zoom:80%;"> 
 
 <p>还有类似于上文的 枫叶 也属于IFS分形。</p>
 <h4 id="L-系统"><a href="#L-系统" class="headerlink" title="L-系统"></a>L-系统</h4><p> 这个类型的分形常用来实现类似上文中植物的分形。这里因为篇幅不再举例。</p>
