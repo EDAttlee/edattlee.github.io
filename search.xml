@@ -77,6 +77,30 @@
       </categories>
   </entry>
   <entry>
+    <title>Hardware Develop</title>
+    <url>/2023/08/29/Hardware-Develop/</url>
+    <content><![CDATA[<h3 id="单片机开发-MCU-Development"><a href="#单片机开发-MCU-Development" class="headerlink" title="单片机开发 | MCU Development"></a>单片机开发 | MCU Development</h3><p>A microcontroller (MCU for microcontroller unit) is a compact integrated circuit designed to govern a specific operation in an embedded system. Typically, microcontrollers include an application-specific processor, memory, and input/output peripherals on a single chip. </p>
+<p>By offering a customizable mix of read/write memory, program memory, and processing capability, microcontrollers make it economical to digitally control even more devices and processes.</p>
+<p>Figure 1 depicts the circuit diagram we constructed within the simulation software to verify the rationality of the design.</p>
+<img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/20231103155702942.png" referrerpolicy="no-referrer" alt="image-20231103155702942">
+
+<span id="more"></span>
+
+<p>The control of a system is inextricably linked to the collaborative operation of hardware electronic circuits and the computational processing of chips. In this course, we have delved into the underlying operational principles of computer systems and their hardware realizations, acquiring proficiency in assembly language, principles of compilation, and system hardware simulation. </p>
+<p>Owing to the difficulty in modifying circuit PCB boards post-production, it is imperative to simulate the system circuitry prior to the actual soldering of hardware circuits and chips, to validate the feasibility of the code and design proposals. </p>
+<p>As illustrated in Figure 2, the electronic password lock controlled by the C51 chip is presented, where we have learned how to employ matrix keyboards, utilize buzzers for music playback, and implement Bluetooth serial communication for data transfer among other hardware control and programming techniques.</p>
+<h2 id="FPGA-Development"><a href="#FPGA-Development" class="headerlink" title="FPGA Development"></a>FPGA Development</h2><img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/20231103163321476.png" referrerpolicy="no-referrer" alt="image-20231103163321476">
+
+<p>FPGAs (Field-Programmable Gate Arrays) are renowned for their abundant hardware resources, precise timing, and obviation of traditional gate circuits, offering high convenience and accuracy in development. They are extensively utilized in sectors such as communications, industry, and aerospace. Leveraging these attributes, learning FPGA enables the execution of highly precise timing and logic controls with minimal need for hardware expansion. This course has facilitated the mastery of EDA (Electronic Design Automation) frameworks and the Verilog hardware description language. Figure 3 presents a digital signal generator based on Verilog and FPGA, capable of generating various voltage signals with high precision.</p>
+<img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/20231103163738899.png" referrerpolicy="no-referrer" alt="image-20231103163738899">
+
+<p>After the programming component was validated through simulation, the hardware circuit was constructed. Utilizing peripheral hardware circuits, we have implemented the functionality to switch between different waveforms, as well as adjust their amplitude and frequency. The right image displays the waveform output as captured by an oscilloscope.</p>
+]]></content>
+      <categories>
+        <category>Hardware</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Embedded System</title>
     <url>/2023/08/25/Embedded-System/</url>
     <content><![CDATA[<h2 id="Embedded-System"><a href="#Embedded-System" class="headerlink" title="Embedded System"></a>Embedded System</h2><h3 id="Smart-vehicle"><a href="#Smart-vehicle" class="headerlink" title="Smart vehicle"></a>Smart vehicle</h3><p>Building on the hardware development knowledge acquired earlier, we completed an intelligent car based on computer vision (CV) and a two-wheeled balancing vehicle using a gyroscope. These systems are significantly more complex, deepening our understanding of control principles such as speed feedback, dual-loop control, and fuzzy PID control, as well as computer vision and ARM embedded development, including GPIO and nested interrupts.</p>
@@ -279,30 +303,6 @@
 <li>$\Phi(z)$的零点<strong>完全对消</strong>$G(z)$的零点</li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Hardware Develop</title>
-    <url>/2022/08/29/Hardware-Develop/</url>
-    <content><![CDATA[<h3 id="单片机开发-MCU-Development"><a href="#单片机开发-MCU-Development" class="headerlink" title="单片机开发 | MCU Development"></a>单片机开发 | MCU Development</h3><p>A microcontroller (MCU for microcontroller unit) is a compact integrated circuit designed to govern a specific operation in an embedded system. Typically, microcontrollers include an application-specific processor, memory, and input/output peripherals on a single chip. </p>
-<p>By offering a customizable mix of read/write memory, program memory, and processing capability, microcontrollers make it economical to digitally control even more devices and processes.</p>
-<p>Figure 1 depicts the circuit diagram we constructed within the simulation software to verify the rationality of the design.</p>
-<img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/20231103155702942.png" referrerpolicy="no-referrer" alt="image-20231103155702942">
-
-<span id="more"></span>
-
-<p>The control of a system is inextricably linked to the collaborative operation of hardware electronic circuits and the computational processing of chips. In this course, we have delved into the underlying operational principles of computer systems and their hardware realizations, acquiring proficiency in assembly language, principles of compilation, and system hardware simulation. </p>
-<p>Owing to the difficulty in modifying circuit PCB boards post-production, it is imperative to simulate the system circuitry prior to the actual soldering of hardware circuits and chips, to validate the feasibility of the code and design proposals. </p>
-<p>As illustrated in Figure 2, the electronic password lock controlled by the C51 chip is presented, where we have learned how to employ matrix keyboards, utilize buzzers for music playback, and implement Bluetooth serial communication for data transfer among other hardware control and programming techniques.</p>
-<h2 id="FPGA-Development"><a href="#FPGA-Development" class="headerlink" title="FPGA Development"></a>FPGA Development</h2><img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/20231103163321476.png" referrerpolicy="no-referrer" alt="image-20231103163321476">
-
-<p>FPGAs (Field-Programmable Gate Arrays) are renowned for their abundant hardware resources, precise timing, and obviation of traditional gate circuits, offering high convenience and accuracy in development. They are extensively utilized in sectors such as communications, industry, and aerospace. Leveraging these attributes, learning FPGA enables the execution of highly precise timing and logic controls with minimal need for hardware expansion. This course has facilitated the mastery of EDA (Electronic Design Automation) frameworks and the Verilog hardware description language. Figure 3 presents a digital signal generator based on Verilog and FPGA, capable of generating various voltage signals with high precision.</p>
-<img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/proj_images/20231103163738899.png" referrerpolicy="no-referrer" alt="image-20231103163738899">
-
-<p>After the programming component was validated through simulation, the hardware circuit was constructed. Utilizing peripheral hardware circuits, we have implemented the functionality to switch between different waveforms, as well as adjust their amplitude and frequency. The right image displays the waveform output as captured by an oscilloscope.</p>
-]]></content>
-      <categories>
-        <category>Hardware</category>
-      </categories>
   </entry>
   <entry>
     <title>Java画图板</title>
