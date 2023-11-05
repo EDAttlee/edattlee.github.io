@@ -14,12 +14,12 @@
 <p>characteristic, where numerous possible amino acid sequences can fold into a single,</p>
 <p>identical protein backbone. This task involves not only identifying viable sequences</p>
 <p>but also representing the sheer diversity of potential solutions. This article is the overview of the technology utilized by <strong>Graph Denoising Diffusion for Inverse Protein Folding</strong>.</p>
-<span id="more"></span>
-
 <h2 id="ResNet"><a href="#ResNet" class="headerlink" title="ResNet"></a>ResNet</h2><img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/Photo/image-20231016220405922.png" alt="image-20231016220405922" style="zoom:33%;">
 
 <p>​	残差学习就是改变传统的网络结构，将层间传输的数据转换为F(x)+x的形式。优势在于梯度不会随着导数的相乘而快速趋近于0，使得网络在达到Plateau后继续下降收敛。</p>
 <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/Photo/image-20231016220953678.png" alt="image-20231016220953678" style="zoom:33%;">
+
+<span id="more"></span>
 
 <h2 id="Transformer"><a href="#Transformer" class="headerlink" title="Transformer"></a>Transformer</h2><p>​	序列转录模型，运用Attention机制，取得了全局信息的抽取效果，而且避免了RNN存在的诸如梯度消失和难以并行计算的缺点。</p>
 <img src="https://raw.githubusercontent.com/EDAttlee/edattlee.github.io/main/Photo/image-20231016221240166.png" alt="image-20231016221240166" style="zoom: 50%;">
